@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: beige;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJlaWdlfGVufDB8fHx8MTY5MjQ1NTYyMQ&ixlib=rb-4.0.3&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+}
+
+#QuoteBox {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    margin: 10px auto;
+    width: 60%;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px goldenrod;
+
+}
+
+#btnQuote {
+    align-self: center;
+    width: auto;
+    background-color: goldenrod;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
