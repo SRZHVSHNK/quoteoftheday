@@ -23,7 +23,7 @@ const quotes = [
     "Success is not in what you have, but who you are."
 ];
 
-const quoteElement = document.getElementById('QuoteBox');
+const quoteElement = document.getElementById('QuoteText');
 const button = document.getElementById('btnQuote');
 
 button.addEventListener('click', function () {
